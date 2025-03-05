@@ -1,0 +1,62 @@
+#container {
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    border-radius: 20%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between;
+    font-size: xx-large;
+    color: #6b3e1e;
+  }
+  
+  #container img {
+    width: 100%; 
+    height: 70%;
+    object-fit: cover; 
+  }
+  
+  #secondsection {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .left{
+    flex-grow: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right {
+    flex-grow: 0.2; /* Puoi regolare il valore per il giusto spazio per il right */
+    display: flex;
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    align-items: center; /* Centra il contenuto verticalmente */
+  }
+  
+  
+  .left h3, .left p, .right p {
+    margin: 5px 0;
+  }
+  
+  
+  button {
+    width: 50%;
+    padding: 10px;
+    background-color: #f2c94c;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 4%;
+    font-size:smaller ;
+    color: #6b3e1e;
+  }
+  
+  button:hover {
+    background-color: #e1ce80;
+  }
